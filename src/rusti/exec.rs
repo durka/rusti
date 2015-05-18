@@ -38,6 +38,7 @@ extern "C" {
     fn __morestack();
 }
 
+#[export_name = "___morestack_addr"]
 fn morestack_addr() -> *const () {
     unsafe { transmute(__morestack) }
 }
