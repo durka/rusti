@@ -3,6 +3,7 @@
 name = "rusti"
 version = "0.0.1"
 authors = [ "Murarth <murarth@gmail.com>" ]
+build = "find_readline.rs"
 
 [lib]
 
@@ -21,3 +22,4 @@ env_logger = "*"
 getopts = "*"
 log = "*"
 tempfile = "*"
+
